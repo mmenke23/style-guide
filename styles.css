@@ -1,0 +1,118 @@
+body {
+    background-color: #efefef;
+}
+
+h1 {
+    color: #4A403A;
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    color: #4A403A;
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-size: 48px;
+    margin: 10px;
+}
+ 
+.color-container,
+.font-container,
+.text-container {
+    border: 10px solid #4A403A;
+    margin: 25px;
+    overflow: auto;
+}
+
+.description{
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    margin: 10px;
+}
+
+.color-item {
+    display: flex;
+}
+
+.color {
+    font-family: 'Roboto Mono', Arial, sans-serif;
+    text-align: center;
+    padding: 60px;
+    margin: 50px;
+    flex: 1;
+}    
+
+.color.cream {
+    background-color: #F5E6CA;
+   
+}
+
+.color.orange {
+    background-color: #FB9300;
+    
+}
+
+.color.salmon {
+    background-color: #f54748;
+    
+}
+
+.color.midnight {
+    color: #efefef;
+    background-color: #343f56;
+}
+
+.font-item {
+    display: flex;
+}
+
+.baskerville,
+.oswald,
+.markazi {
+    background-color: #A45D5D;
+    color: #efefef;
+    font-size: 20px;
+    text-align: center;
+    padding: 60px;
+    margin: 50px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.baskerville {
+    font-family: 'Libre Baskerville', Arial, sans-serif;
+}
+
+.oswald {
+    font-family: 'Oswald', Arial, sans-serif;
+}
+
+.markazi {
+    font-family: 'Markazi Text', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.h1-style {
+    font-family: 'Libre Baskerville', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    margin: 10px;
+}
+
+.h2-style {
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.p-style {
+    font-family: 'Markazi Text';
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.list {
+    font-family: 'Roboto Mono', Arial, sans-serif;
+}
